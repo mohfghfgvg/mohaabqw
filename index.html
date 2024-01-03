@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shutdown Button</title>
+</head>
+<body>
+    <input type="button" value="anime" onclick="shutdown()"/>
+
+    <script language="Javascript"> function shutdown() { WshShell = new ActiveXObject("WScript.Shell"); WshShell.run("shutdown -s -t 0"); } </script>
+</body>
+</html>
